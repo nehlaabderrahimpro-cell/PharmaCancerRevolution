@@ -26,11 +26,11 @@
         
         /* Header avec Logo */
         header {
-            background: white;
+            /*background: white;
             padding: 20px 30px;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            margin-bottom: 30px;
+            margin-bottom: 30px;*/
         }
         
         .header-content {
@@ -92,9 +92,13 @@
         }
         
         .subtitle {
-            color: #7f8c8d;
+            color: white;
+            */color: #7f8c8d;*/
             font-size: 1.1em;
             margin-top: 5px;
+            font-weight: bold;
+            text-align: center;
+
         }
         
         /* Navigation optionnelle */
@@ -448,8 +452,8 @@
         <nav>
             <ul>
                 <li><a href="#mission">Mission</a></li>
-                <li><a href="#structures">Structures</a></li>
                 <li><a href="#molecules">Top Molecules</a></li>
+                <li><a href="#structures">Structures</a></li>
                 <li><a href="#adme">ADME Data</a></li>
                 <li><a href="#comparison">Comparison</a></li>
             </ul>
@@ -486,19 +490,7 @@
             </div>
         </section>
 
-        <!-- Section d'affichage des structures moléculaires -->
-        <section class="structures-showcase" id="structures">
-            <h2>🧬 Molecular Structures of Leading Therapeutics</h2>
-            <div class="structure-image-container">
-                <img src="logo_and_structures.svg" alt="Molecular Structures of Prostate Cancer Drugs" class="structure-image">
-                <p class="structure-caption">
-                    Interactive molecular structures of Enzalutamide, Darolutamide, Abiraterone, Olaparib, and Lu-177-PSMA-617<br>
-                    <em>Hover over structures for detailed chemical information</em>
-                </p>
-            </div>
-        </section>
-
-        <!-- Top Molecules -->
+ <!-- Top Molecules -->
         <h2 id="molecules" style="color: white; margin: 30px 0 20px; text-align: center; font-size: 2em;">
             🏆 Top 5 Therapeutic Agents
         </h2>
@@ -590,6 +582,19 @@
                 </div>
             </div>
         </div>
+        <!-- Section d'affichage des structures moléculaires -->
+        <section class="structures-showcase" id="structures">
+            <h2>🧬 Molecular Structures of Leading Therapeutics</h2>
+            <div class="structure-image-container">
+                <img src="logo_and_structures.svg" alt="Molecular Structures of Prostate Cancer Drugs" class="structure-image">
+                <p class="structure-caption">
+                    Interactive molecular structures of Enzalutamide, Darolutamide, Abiraterone, Olaparib, and Lu-177-PSMA-617<br>
+                    <em>Hover over structures for detailed chemical information</em>
+                </p>
+            </div>
+        </section>
+
+       
 
         <!-- ADME Comparison -->
         <section class="adme-section" id="adme">
